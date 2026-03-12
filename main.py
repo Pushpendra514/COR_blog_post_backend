@@ -2,9 +2,9 @@ from flask import Flask, render_template,request
 import requests
 import smtplib
 from email.mime.text import MIMEText
-user_email = "pushpendra22200504@gmail.com"
-user_password = "wnfn txyv nows pukh"
-reciever_email = "pushpendra2242005@gmail.com"
+user_email = "Random"
+user_password = "???"
+reciever_email = "which ever you want"
 API_KEY = "https://api.npoint.io/cf96eab96e4b77125724"
 data = requests.get(API_KEY)
 data_json = data.json()
